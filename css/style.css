@@ -1,0 +1,193 @@
+.btn-secondary, .btn-primary {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 8px 20px;
+  margin: 3px;
+}
+
+.btn-primary {
+  background-color: #366476;
+}
+
+.btn-secondary {
+  background-color: #f4a261;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+
+.mr-1 {
+  margin-right: 1rem;
+}
+
+.ml-1 {
+  margin-left: 1rem;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.m-2 {
+  margin: 2rem;
+}
+
+.mr-2 {
+  margin-right: 2rem;
+}
+
+.ml-2 {
+  margin-left: 2rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.m-3 {
+  margin: 3rem;
+}
+
+.mr-3 {
+  margin-right: 3rem;
+}
+
+.ml-3 {
+  margin-left: 3rem;
+}
+
+.mt-3 {
+  margin-top: 3rem;
+}
+
+.mb-3 {
+  margin-bottom: 3rem;
+}
+
+.m-4 {
+  margin: 4rem;
+}
+
+.mr-4 {
+  margin-right: 4rem;
+}
+
+.ml-4 {
+  margin-left: 4rem;
+}
+
+.mt-4 {
+  margin-top: 4rem;
+}
+
+.mb-4 {
+  margin-bottom: 4rem;
+}
+
+.m-5 {
+  margin: 5rem;
+}
+
+.mr-5 {
+  margin-right: 5rem;
+}
+
+.ml-5 {
+  margin-left: 5rem;
+}
+
+.mt-5 {
+  margin-top: 5rem;
+}
+
+.mb-5 {
+  margin-bottom: 5rem;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f4f4f4;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 1100px;
+  padding: 0 30px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.banner {
+  background-color: #264653;
+  color: #fff;
+  height: 600px;
+}
+@media (max-width: 700px) {
+  .banner {
+    height: 400px;
+  }
+  .banner-content {
+    text-align: center;
+  }
+  .banner-content img {
+    display: none;
+  }
+}
+.banner nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner nav ul {
+  display: flex;
+  list-style-type: none;
+}
+.banner nav li {
+  padding: 15px;
+}
+.banner nav .logo {
+  color: #fff;
+}
+.banner nav .logo span {
+  color: #f4a261;
+}
+.banner-content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.banner-content img {
+  width: 50%;
+}
+.banner-content h1 {
+  font-size: 50px;
+  line-height: 1.2;
+}
+
+/*# sourceMappingURL=style.css.map */

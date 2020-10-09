@@ -1,0 +1,25 @@
+$spaceamounts: (1, 2, 3, 4, 5);
+
+@each $space in $spaceamounts {
+    .m-#{$space} {
+        margin: #{$space}rem;
+    }    
+    .mr-#{$space} {
+        margin-right: #{$space}rem;
+    }
+    .ml-#{$space} {
+        margin-left: #{$space}rem;
+    }
+    .mt-#{$space} {
+        margin-top: #{$space}rem;
+    }
+    .mb-#{$space} {
+        margin-bottom: #{$space}rem;
+    }
+}
+
+@mixin mobile {
+    @media(max-width: 700px) {
+        @content;
+    }
+}
